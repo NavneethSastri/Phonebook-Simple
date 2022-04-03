@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <head>
+  </head>
+  <body>
+		<center>
+    
+    <!--Name and phone number headers-->
+    <div>
+      <h5>Add Contact</h5>
+      <label>Name:</label>
+      <input type="text" id="name">
+      <br>
+      <label>Number:</label>
+      <input type="text" id="number">
+      <br>
+      <button onclick = "AddContact()">Add</button>
+			<br>
+			<label id="error"></label>
+    </div>
+
+    <!--Search Box-->
+    <div>
+      <label>Search</label>
+      <input id = "nameToSearch">
+      <button onclick = "Search()">Search</button>
+      <br>
+      <label id = "searchResult"></label>
+    </div>
+		</center>
+		<script src="script.js"></script>
+  </body>
+</html>
